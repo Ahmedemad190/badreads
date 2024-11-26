@@ -5,7 +5,7 @@ pipeline {
         stage('Preparation') {
             steps {
                 echo 'prepare github repo....'
-                git branch: 'master', url: 'https://github.com/swelams/badreads'
+                git branch: 'master', url: 'https://github.com/Ahmedemad190/badreads.git'
             }
         }
         stage('Build-client') {
